@@ -39,7 +39,7 @@ products.forEach(function(tovar) {
 
 $(".tasdiqlash").click(function(){
 	var summa=parseFloat($(".money input").val());
-	
+	alert("bosildi");
 	if (summa<=0 || isNaN(summa)) {
 		alert("Xato format");
 	}else{
